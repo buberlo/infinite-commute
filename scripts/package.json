@@ -1,0 +1,24 @@
+{
+  "name": "pet-commute-share-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TypeScript tooling for exporting share codes, importing friend codes, and printing leaderboards for the pet commute game.",
+  "type": "module",
+  "scripts": {
+    "cli": "tsx src/cli.ts",
+    "start": "tsx src/cli.ts",
+    "export": "tsx src/cli.ts export",
+    "import": "tsx src/cli.ts import",
+    "leaderboard": "tsx src/cli.ts leaderboard",
+    "check": "tsc --noEmit",
+    "build": "tsc -p tsconfig.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  }
+}
